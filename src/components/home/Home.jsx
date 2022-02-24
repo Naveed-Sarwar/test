@@ -154,12 +154,16 @@ const Home = () => {
             <Row>
               {" "}
               <Col sm={12} md={6} lg={6}>
-                <label for="fname">Date of Birth <span>*</span></label>
+                <label for="fname">
+                  Date of Birth <span>*</span>
+                </label>
                 <br />
                 <input type="text" id="fname" name="fname" />
               </Col>
               <Col sm={12} md={6} lg={6}>
-                <label for="fname">Join Date <span>*</span></label>
+                <label for="fname">
+                  Join Date <span>*</span>
+                </label>
                 <br />
                 <input type="text" id="fname" name="fname" />
               </Col>
@@ -167,21 +171,21 @@ const Home = () => {
             <Row>
               {" "}
               <Col sm={12} md={6} lg={6}>
-                  <select className="title" name="country">
-                    <option value="australia">Gender</option>
-                    <option value="canada">Male</option>
-                    <option value="usa">Female</option>
-                  </select>
+                <select className="title" name="country">
+                  <option value="australia">Gender</option>
+                  <option value="canada">Male</option>
+                  <option value="usa">Female</option>
+                </select>
               </Col>
               <Col sm={12} md={6} lg={6}>
-              <select className="title" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                  </select>
+                <select className="title" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
               </Col>
             </Row>
-            <h6 className="heading_text">Job Info</h6>
+            <br /> <h6 className="heading_text">Job Info</h6>
             <Row>
               {" "}
               <Col sm={12} md={6} lg={6}>
